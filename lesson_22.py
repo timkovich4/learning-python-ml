@@ -10,4 +10,4 @@ survived_stats = df.groupby("Sex")["Survived"].agg(["mean", "median", "count"])
 mean_fare_by_class = df.groupby("Pclass")["Survived"].mean()
 print(mean_fare_by_class)
 print(survived_stats)
-
+#
